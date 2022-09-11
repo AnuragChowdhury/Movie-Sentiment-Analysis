@@ -6,6 +6,8 @@ import pandas as pd
 import re
 from sklearn.model_selection import train_test_split
 import streamlit as st
+import warnings
+warnings.filterwarnings('ignore')
 pd.set_option('display.max_columns',None)
 st.title("Movie Sentiment Analysis")
 
