@@ -14,7 +14,7 @@ sent1 = st.text_input('Enter Movie Name')
 sent2 = st.text_area('Enter Movie Review',height=50)
 submit = st.button('Generate Review Sentiment')
 
-data1 = pd.read_csv("IMDB Dataset.csv")
+data1 = pd.read_csv("IMDB_Dataset.csv")
 
 data=data1[:10000]
 
